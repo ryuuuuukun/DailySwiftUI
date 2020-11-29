@@ -11,7 +11,9 @@ import SwiftUI
 struct DairySwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ScreenListView()
+            }
         }
     }
 }
