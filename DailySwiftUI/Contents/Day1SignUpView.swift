@@ -1,6 +1,6 @@
 //
 //  Day1SignUpView.swift
-//  DairySwiftUI
+//  DailySwiftUI
 //
 //  Created by Ryuki Murakami on 2020/11/28.
 //

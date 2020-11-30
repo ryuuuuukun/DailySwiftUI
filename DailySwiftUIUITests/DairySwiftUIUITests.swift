@@ -1,13 +1,13 @@
 //
-//  DairySwiftUIUITests.swift
-//  DairySwiftUIUITests
+//  DailySwiftUIUITests.swift
+//  DailySwiftUIUITests
 //
 //  Created by Ryuki Murakami on 2020/11/28.
 //
 
 import XCTest
 
-class DairySwiftUIUITests: XCTestCase {
+class DailySwiftUIUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
