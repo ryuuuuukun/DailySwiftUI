@@ -1,4 +1,4 @@
-# DairySwiftUI
+# DailySwiftUI
 SwiftUIで画面をトレースしていく。
 
 ## Screen List
