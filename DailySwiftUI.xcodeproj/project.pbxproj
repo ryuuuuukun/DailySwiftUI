@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951107AC2575326A00553742 /* Day2CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951107AB2575326A00553742 /* Day2CheckOutView.swift */; };
 		9515A1F32571E216004DA67B /* DairySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515A1F22571E216004DA67B /* DairySwiftUIApp.swift */; };
 		9515A1F52571E216004DA67B /* ScreenListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515A1F42571E216004DA67B /* ScreenListView.swift */; };
 		9515A1F72571E21B004DA67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9515A1F62571E21B004DA67B /* Assets.xcassets */; };
 		9515A1FA2571E21B004DA67B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9515A1F92571E21B004DA67B /* Preview Assets.xcassets */; };
 		9515A2052571E21B004DA67B /* DairySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515A2042571E21B004DA67B /* DairySwiftUITests.swift */; };
 		9515A2102571E21B004DA67B /* DairySwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515A20F2571E21B004DA67B /* DairySwiftUIUITests.swift */; };
-		9515A2352571EADF004DA67B /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515A2342571EADF004DA67B /* AppViewModel.swift */; };
 		9515A23D2571ED20004DA67B /* Day1SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9515A23C2571ED20004DA67B /* Day1SignUpView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		951107AB2575326A00553742 /* Day2CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2CheckOutView.swift; sourceTree = "<group>"; };
 		9515A1EF2571E216004DA67B /* DailySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9515A1F22571E216004DA67B /* DairySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairySwiftUIApp.swift; sourceTree = "<group>"; };
 		9515A1F42571E216004DA67B /* ScreenListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenListView.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		9515A20B2571E21B004DA67B /* DailySwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailySwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9515A20F2571E21B004DA67B /* DairySwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairySwiftUIUITests.swift; sourceTree = "<group>"; };
 		9515A2112571E21B004DA67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9515A2342571EADF004DA67B /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		9515A23C2571ED20004DA67B /* Day1SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +101,6 @@
 			children = (
 				9515A1F22571E216004DA67B /* DairySwiftUIApp.swift */,
 				9515A1F42571E216004DA67B /* ScreenListView.swift */,
-				9515A2342571EADF004DA67B /* AppViewModel.swift */,
 				9515A1F62571E21B004DA67B /* Assets.xcassets */,
 				9515A2412571ED35004DA67B /* Contents */,
 				9515A1FB2571E21B004DA67B /* Info.plist */,
@@ -140,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				9515A23C2571ED20004DA67B /* Day1SignUpView.swift */,
+				951107AB2575326A00553742 /* Day2CheckOutView.swift */,
 			);
 			path = Contents;
 			sourceTree = "<group>";
@@ -274,8 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9515A1F52571E216004DA67B /* ScreenListView.swift in Sources */,
+				951107AC2575326A00553742 /* Day2CheckOutView.swift in Sources */,
 				9515A1F32571E216004DA67B /* DairySwiftUIApp.swift in Sources */,
-				9515A2352571EADF004DA67B /* AppViewModel.swift in Sources */,
 				9515A23D2571ED20004DA67B /* Day1SignUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

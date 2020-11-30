@@ -1,28 +1,44 @@
-//
-//  ContentView.swift
-//  DailySwiftUI
-//
-//  Created by Ryuki Murakami on 2020/11/28.
-//
-
 import SwiftUI
 
 struct ScreenListView: View {
-    @ObservedObject var AppVM = AppViewModel()
     var body: some View {
-        List {
-            ForEach(AppVM.AppData) { app in
-                NavigationLink(destination:  Day1SignUpView()) {
-                    HStack {
-                        HStack(spacing: 0.0) {
-                            Text("Day")
-                            Text("\(app.day)")
-                        }
-                        Text(app.title)
-                    }
+        ScrollView {
+            VStack {
+                    MenuItem(destinationView: Day1SignUpView(), title: "Sign up", day: 1)
+                    MenuItem(destinationView: Day2CheckOutView(), title: "Check Out", day: 2)
+                    Spacer()
                 }
-            }
+            .padding([.top, .leading, .trailing])
         }.navigationTitle("App List")
+    }
+}
+
+struct MenuItem<Content: View>: View {
+    private var destinationView: Content
+    let title: String
+    let day: Int
+
+    init(destinationView: Content, title: String, day: Int) {
+        self.destinationView = destinationView
+        self.title = title
+        self.day = day
+    }
+
+    var body : some View {
+        NavigationLink(destination:  destinationView) {
+            HStack {
+                HStack(spacing: 0.0) {
+                    Text("Day")
+                    Text("\(day)")
+                }
+                Text(title)
+            }
+            .padding(16.0)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Color("CardBack"))
+            .cornerRadius(12)
+            .foregroundColor(Color("LabelPrimary"))
+        }
     }
 }
 
